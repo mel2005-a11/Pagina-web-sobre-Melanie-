@@ -1,0 +1,89 @@
+bh<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO BY MELANIE</title>
+    <link rel="icon" href="86a8b478-fa87-40c0-80d9-58b0b142dec3.jpeg" type="imagen/x-png">
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+    </header>
+<nav>
+        <ul>
+            <li><a href="#Presentación">Presentación</a></li>
+            <li><a href="#acercademi">Sobre mí</a></li>
+            <li><a href="#habYcom">Habilidades y Competencias</a></li>
+            <li><a href="#galeria">Galería de Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="Presentación">
+        <h2>Presentación</h2>
+        <p>¡Holi! soy Melanie Salhet Coello Naranjo tengo 20 años esta es una pagina de 
+            presentacion para hablar sobre mi, relatar mis habilidades y competencias como por ejemplo soy estudiante
+            de la Universidad Tecnica de Babahoyo  de la carrera sistemas de informacion estoy cursando el tercer semestre
+            mis metas son terminar mi carrera, y luego conseguir un trabajo.
+            Me apasionan muchas cosas, entre ellas viajar, conocer nuevas culturas o diferentes para mi y disfruto mucho del tiempo en familia y amigos.
+         </p> 
+         <!--Agregar foto de presentacion -->
+     <img src="86a8b478-fa87-40c0-80d9-58b0b142dec3.jpeg" alt="Foto de Melanie" width="200">
+    </section> 
+    <section id="acercademi"></section>
+     <table border="1">
+                    <tr>
+                        <td>Nombre y Apellido</td>
+                        <td>Edad</td>
+                        <td>Nivel de Semestre</td>
+                        <td>Materia Favorita</td>
+                    </tr>
+                    <tr>
+                        <td>Melanie Salhet Coello Naranjo</td>
+                        <td>20 años</td>
+                        <td>Tercer Semestre</td>
+                        <td>Programación</td>
+                    </tr>
+                </table>
+    <section id="habYcom"></section>
+    <ul>
+        <li>Trabajo en equipo</li>
+        <li>Comunicación efectiva</li>
+        <li>Adaptabilidad</li>
+        <li>Resolución de problemas</li>
+        <li>Gestión del tiempo</li>
+    </ul>
+        <section>
+            <h2 id="acercademi">Sobre Mí</h2>
+                <p>Soy una persona muy amigable, considerada, y trato de ser empatica con todos, naci el 9 de febrero del 2005 creiada por mi papa y mi mama
+                    tengo un hermano mayor y he tenido una infancia muy feliz y una familia funcional, espero en mi vida seguir gozando de esos privilegios y tener una familia feliz.
+                   </p>
+        </section>
+        <br/>
+        <!--En esta parte agrego el video -->
+        <section>
+    <video width="320" height="240" controls>
+        <source src="(54) WhatsApp.html" type="video/mp4">
+        <!--En esta parte voy a agregar el formulario de contacto-->
+          <form action="/procesar-formulario" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+            
+            <input type="submit" value="Enviar">
+            </form>
+           <footer style="text-align: center; padding: 20px; background-color: #f1f1f1;">
+    <p>&copy; <span id="current-year"></span> Melanie Salhet. Todos los derechos reservados.</p>
+    <div>
+       
+</footer>
+ <a href="https://www.instagram.com/melanie_salhet/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+<script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
